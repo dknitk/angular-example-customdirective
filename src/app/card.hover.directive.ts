@@ -3,7 +3,7 @@ import { Directive, ElementRef, Renderer2, HostListener, HostBinding } from '@an
 @Directive({
   selector: "[ccCardHover]"
 })
-
+// Custom Directive for MouseOver and MouseOut
 export class CardHoverDirective {
 
   @HostBinding('class.card-outline-primary') private ishovering: boolean;
